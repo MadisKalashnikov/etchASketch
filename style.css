@@ -7,17 +7,18 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	height: 100vh;
+	width: 100vw;
 }
-.wrapper {
+.boxes-wrapper {
 	display: flex;
 	flex-wrap: wrap;
+	max-width: 490px;
 }
 .box {
-	max-width: 30px;
-	max-height: 30px;
-	height: 100%;
-	width: 100%;
-}
-.border {
-
+	flex-shrink: 1;
+	flex-grow: 1;
+	width: 30px;
+	height: 30px;
+	text-align: center;
 }
