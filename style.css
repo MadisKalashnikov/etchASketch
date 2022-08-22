@@ -5,6 +5,8 @@
 }
 .container {
 	display: flex;
+	gap: 15px;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	height: 100vh;
@@ -22,10 +24,23 @@
 	flex-shrink: 1;
 	flex-grow: 1;
 	text-align: center;
-	border: 1px solid black;
-	background-color: white;
 	transition: background-color 0.2s ease-in-out;
+	background-color: rgba(0, 0, 0, 0.03);
 }
 .black {
 	background-color: black;
+}
+button {
+	padding: 3px 10px;
+}
+.btn-wrapper {
+	max-width: 600px;
+	width: 100%;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+.range {
+	text-align: center;
+	font-size: 0.8rem;
 }

@@ -9,11 +9,26 @@
 	<script src="./main.js" defer></script>
 </head>
 <body>
+	
 	<main class="container">
-		<button data-option id="clear">Clear</button>
+		
+		<section class="btn-wrapper">
+			<button id="clear">Clear</button>
+			<button class="mode" id="classic" data-mode="classic">Classic</button>
+			<button class="mode" id="rgb" data-mode="rgb">RGB colours</button>
+			<button class="mode" id="eraser" data-mode="eraser">Eraser</button>
+			<div class="range">
+				<h2>pick grid</h2>
+				<input type="range" min="6" max="64" id="range" value="6">
+			</div>
+			<input type="color" data-mode="color" id="pick">
+		</section>
+		
 		<section class="boxes-wrapper">
 
 		</section>
+		<h2 id="currentElement">Current Mode: Classic</h2>
+		<h2 id="range-value"></h2>
 	</main>
 </body>
 </html>
