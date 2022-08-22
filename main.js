@@ -5,7 +5,9 @@ const multipleDivs = (num) => {
 		const div = document.createElement("div")
 		div.innerHTML = "a"
 		div.classList.add("box")
+		div.style.width = `${600 / num}px`
+		div.style.height = `${600 / num}px`
 		wrapper.appendChild(div)
 	}
 }
-multipleDivs(16)
+multipleDivs(6)
