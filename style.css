@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+.box {
+	max-width: 30px;
+	max-height: 30px;
+	height: 100%;
+	width: 100%;
+}
+.border {
+
+}
